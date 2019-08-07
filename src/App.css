@@ -1,31 +1,85 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.buttonText {
-  font-family: 'Dosis', sans-serif;
+.buttonSelected {
+  color: teal;
+}
+
+.imgMic {
+  display: block;
+  min-height: 180px;
+  max-width: 95%;
+  width: auto;
+  height: auto;
+  background-color: red;
+}
+
+.linkNav {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9em;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  line-height: .5em;
 }
 
 .logoImg {
-  width: 100px;
+  width: 80px;
 }
 
 .logoTextLg {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 .logoTextSm {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.1em;
+  font-size: 0.9em;
+}
+
+.navBar {
+  line-height: .25em;
+  position: fixed;
 }
 
 .page {
   background-color: #FFF;
   width: 90%;
-  box-shadow: 4px 4px 4px #DDD;
+  height: 100%;
+  box-shadow: 4px 4px 4px #DDD, -4px -4px 4px #DDD;
+}
+
+.textCaption {
+  color: darkgray;
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9em;
+  line-height: .9em;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.textTitle {
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.textSubitle {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  text-align: center;
+  color: darkgray;
 }
 
 body {
   background-color: #EEE;
+  font-size: 16px;
 }
