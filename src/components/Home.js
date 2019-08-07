@@ -10,15 +10,15 @@ export default function Home() {
                 <div className="textSubtitle">Buttondown Lavalier Mount for Personal Microphones</div>
             </div>
             <Divider />
-            <Grid columns={3} verticalAlign="middle">
+            <Grid columns={3}>
                 <Grid.Column>
-                    <img src="/images/B6.jpg" className="imgMic"/>
+                    <img src="/images/B6.jpg" className="imgMic" />
                 </Grid.Column>
                 <Grid.Column>
-                    <img src="/images/cos11.png" className="imgMic"/>
+                    <img src="/images/cos11.png" className="imgMic" />
                 </Grid.Column>
                 <Grid.Column>
-                    <img src="/images/dpa.jpg" className="imgMic"/>
+                    <img src="/images/dpa.jpg" className="imgMic" />
                 </Grid.Column>
             </Grid>
             <Grid columns={3} verticalAlign="top">
@@ -39,31 +39,33 @@ export default function Home() {
 
                     Abetek products are available from:{"\n\n"}
 
-                    <span className="textSubtitle">USA</span>{"\n\n"}
+                    <span className="textSubtitle">USA</span>
 
-                    Professional Sound Services (NYC, New Orleans, Ft. Lauderdale){"\n\n"}
+                    <ul>
+                        <li><a href="http://www.pro-sound.com/p/SABEMICMOUNT.html" target='_blank' rel='noopener noreferrer'>Professional Sound Services</a> (NYC, New Orleans, Ft. Lauderdale)</li>
+                        <li><a href="https://www.locationsound.com/abetek-button-down-lav-mount-3338" target='_blank' rel='noopener noreferrer'>Location Sound Corp</a> (Los Angeles)</li>
+                        <li><a href="https://www.trewaudio.com/product/abetek-button-down-mounts/" target='_blank' rel='noopener noreferrer'>Trew Audio</a> (Nashville, Atlanta, Los Angeles)</li>
+                    </ul>
 
-                    Location Sound Corp (Los Angeles){"\n\n"}
+                    <span className="textSubtitle">CANADA</span>
 
-                    Trew Audio (Nashville, Atlanta, Los Angeles){"\n\n"}
+                    <ul>
+                        <li><a href="http://sonotechnique.ca/contact" target='_blank' rel='noopener noreferrer'>Sonotechnique</a> (Montreal)</li>
+                        <li><a href="https://www.trewaudio.com/product/abetek-button-down-mounts/" target='_blank' rel='noopener noreferrer'>Trew Audio</a> (Toronto, Vancouver)</li>
+                    </ul>
 
-                    <span className="textSubtitle">CANADA</span>{"\n\n"}
+                    <span className="textSubtitle">EUROPE</span>
 
-                    Sonotechnique (Montreal){"\n\n"}
+                    <ul>
+                        <li><a href="http://www.soundkit.co.uk/product/9004173/abetek-mic-concealer" target='_blank' rel='noopener noreferrer'>Soundkit</a> (UK)</li>
+                        <li><a href="http://www.noyzboyz.nl/Producten/AbeTek" target='_blank' rel='noopener noreferrer'>Noyz Boyz Audio</a> (Netherlands)</li>
+                        <li><a href="http://soundonseteurope.com/abetek-mount?search=abetek" target='_blank' rel='noopener noreferrer'>SoundOnSetEurope</a> (Spain)</li>
+                    </ul>
 
-                    Trew Audio (Toronto, Vancouver){"\n\n"}
-
-                    <span className="textSubtitle">EUROPE</span>{"\n\n"}
-
-                    Soundkit (UK){"\n\n"}
-
-                    Noyz Boyz Audio (Netherlands){"\n\n"}
-
-                    SoundOnSetEurope (Spain){"\n\n"}
-
-                    <span className="textSubtitle">AFRICA</span>{"\n\n"}
-
-                    Pro Gear SA (South Africa){"\n\n"}
+                    <span className="textSubtitle">AFRICA</span>
+                    <ul>
+                        <li><a href="http://www.progearsa.co.za" target='_blank' rel='noopener noreferrer'>Pro Gear SA</a> (South Africa)</li>{"\n\n"}
+                    </ul>
                 </div>
                 </Grid.Column>
             </Grid>
