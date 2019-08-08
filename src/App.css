@@ -1,33 +1,124 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  color: teal;
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9em;
+  padding: 15px;
+  line-height: .5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.centered {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.imgMic {
+  display: block;
+  min-height: 180px;
+  max-width: 258px;
+  width: auto;
+  height: auto;
+  margin: 40px auto auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgInstructions {
+  display: block;
+  margin: 40px auto;
+}
+
+.linkNav {
+  color: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9em;
+  text-decoration: none;
+  padding: 15px;
+  line-height: .5em;
+}
+
+
+.linkNav:hover {
+  color: teal;
+  text-shadow: 2px 2px 2px #DDD;
+}
+
+.logoImg {
+  width: 80px;
+  margin: 20px 0px auto;
+}
+
+.logoTextLg {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+}
+
+.logoTextSm {
+  font-family: 'Dosis', sans-serif;
+  font-size: 0.9em;
+}
+
+.navBar {
+  line-height: .25em;
+  position: fixed;
+}
+
+.page {
+  background-color: #FFF;
+  width: 90%;
+  height: 100%;
+  box-shadow: 4px 4px 4px #DDD, -4px -4px 4px #DDD;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.textCaption {
+  color: darkgray;
+  font-family: 'Work Sans', sans-serif;
+  font-size: .9em;
+  line-height: .5em;
+}
+
+.textTitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  line-height: 3em;
+  text-align: center;
+}
+
+.textSubtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25em;
+  line-height: 2em;
+  color: #222;
+  text-align: center;
+}
+
+body {
+  background-color: #EEE;
+  font-size: 16px;
+}
+
+input, select, textarea {
+  background-color: #F9F9F9 !important;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: auto;
 }
