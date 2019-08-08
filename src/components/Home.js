@@ -4,45 +4,44 @@ import { Grid, Divider } from 'semantic-ui-react'
 export default function Home() {
     return(
         <div>
-            <img src="/images/single_mount_bg.jpg" width="100%" />
+            <img src="/images/single_mount_bg.jpg" width="100%" alt="Abetek mount with mic"/>
             <div className="text">
                 <div className="textTitle">Abetek - Solutions for Sound & Film</div>
                 <div className="textSubtitle">Buttondown Lavalier Mount for Personal Microphones</div>
+                <br />
             </div>
             <Divider />
-            <Grid columns={3}>
+            <Grid columns={3} stackable>
                 <Grid.Column>
-                    <img src="/images/B6.jpg" className="imgMic" />
-                </Grid.Column>
-                <Grid.Column>
-                    <img src="/images/cos11.png" className="imgMic" />
-                </Grid.Column>
-                <Grid.Column>
-                    <img src="/images/dpa.jpg" className="imgMic" />
-                </Grid.Column>
-            </Grid>
-            <Grid columns={3} verticalAlign="top">
-                <Grid.Column>
+                    <img src="/images/B6.jpg" className="imgMic" alt="Countryman B6" />
                     <span className="textCaption">COUNTRYMAN B6</span>
                 </Grid.Column>
                 <Grid.Column>
+                    <img src="/images/cos11.png" className="imgMic" alt="Sanken COS-11" />
                     <span className="textCaption">SANKEN COS-11</span>
                 </Grid.Column>
                 <Grid.Column>
+                    <img src="/images/dpa.jpg" className="imgMic" alt="DPA 4060 series" />
                     <span className="textCaption">DPA 4060 SERIES</span>
                 </Grid.Column>
             </Grid>
             <Grid centered>
                 <Grid.Column width={13}>
                 <div className="text">
-                    Abetek Button-Down Lav Mounts are available in black or white for the above microphones.  The material is a strong and flexible TPE.  All of our packaging is biodegradable.{"\n\n"}
+                    Abetek Button-Down Lav Mounts are available in black and white for the above microphones.  The material is a strong, flexible TPE.  All packaging is biodegradable.{"\n\n"}
 
                     Abetek products are available from:{"\n\n"}
 
                     <span className="textSubtitle">USA</span>
 
                     <ul>
-                        <li><a href="http://www.pro-sound.com/p/SABEMICMOUNT.html" target='_blank' rel='noopener noreferrer'>Professional Sound Services</a> (NYC, New Orleans, Ft. Lauderdale)</li>
+                        <li><a href="http://www.pro-sound.com/p/SABEMICMOUNT.html" 
+                                target='_blank' 
+                                rel='noopener noreferrer'>
+                                Professional Sound Services
+                            </a> 
+                            {' '}(NYC, New Orleans, Ft. Lauderdale)
+                        </li>
                         <li><a href="https://www.locationsound.com/abetek-button-down-lav-mount-3338" target='_blank' rel='noopener noreferrer'>Location Sound Corp</a> (Los Angeles)</li>
                         <li><a href="https://www.trewaudio.com/product/abetek-button-down-mounts/" target='_blank' rel='noopener noreferrer'>Trew Audio</a> (Nashville, Atlanta, Los Angeles)</li>
                     </ul>
@@ -69,6 +68,10 @@ export default function Home() {
                 </div>
                 </Grid.Column>
             </Grid>
+            <Divider />
+            <br />
+            <br />
+            <br />
         </div>
     )
 }

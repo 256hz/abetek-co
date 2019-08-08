@@ -19,7 +19,6 @@ class App extends React.Component {
   constructor(){
     super()
     this.state = {
-      page: "Home"
     }
   }
 
@@ -31,9 +30,9 @@ class App extends React.Component {
             <div className="page">
               <NavBar />
               <div>
-                <Route exact path="/" component={Home}/>
-                <Route path="/instructions" component={Instructions}/>
-                <Route path="/contact" component={Contact}/>
+                <Route exact path="/"       component={Home}/>
+                <Route exact path="/instructions" component={Instructions}/>
+                <Route exact path="/contact"      component={Contact}/>
               </div>
             </div>
           </Grid>
