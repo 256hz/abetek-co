@@ -27,6 +27,7 @@
   width: auto;
   height: auto;
   margin: 40px auto auto;
+  box-shadow: 0px 2px 5px #999;
 }
 
 .imgInstructions {
@@ -76,7 +77,7 @@
 }
 
 .text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 1em;
   line-height: 1.5em;
   text-align: justify;
@@ -84,7 +85,7 @@
 }
 
 .textCaption {
-  color: darkgray;
+  color: rgb(128, 128, 128);
   font-family: 'Work Sans', sans-serif;
   font-size: .9em;
   line-height: .5em;
@@ -98,7 +99,7 @@
 }
 
 .textSubtitle {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Libre Baskerville', sans-serif;
   font-size: 1.25em;
   line-height: 2em;
   color: #222;

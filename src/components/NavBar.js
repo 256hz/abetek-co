@@ -18,7 +18,7 @@ export default function NavBar(props) {
 
             <Divider />
 
-            <Grid.Row columns={5} className="navBar">
+            <Grid.Row columns={7} className="navBar">
                 <Grid.Column textAlign="center">
                     <NavLink className="linkNav" to="/" exact={true}>
                         <span>HOME</span>
