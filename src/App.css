@@ -43,7 +43,6 @@
   line-height: .5em;
 }
 
-
 .linkNav:hover {
   color: teal;
   text-shadow: 2px 2px 2px #DDD;
@@ -71,7 +70,7 @@
 
 .page {
   background-color: #FFF;
-  width: 90%;
+  width: 85%;
   height: 100%;
   box-shadow: 4px 4px 4px #DDD, -4px -4px 4px #DDD;
 }
